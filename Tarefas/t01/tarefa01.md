@@ -23,6 +23,31 @@
 ### 🔗 NATURAL JOIN
 `NATURAL JOIN` une automaticamente tabelas com base em colunas de **mesmo nome e tipo**. É simples de usar, mas deve ser aplicado com cuidado para evitar joins inesperados.
 
-**Exemplo:**
+# 📘 NATURAL JOIN e CROSS JOIN em SQL
+
+## 🔹 NATURAL JOIN
+
+O `NATURAL JOIN` realiza uma junção automática entre duas tabelas, utilizando **todas as colunas com nomes iguais** nas duas tabelas como critério de junção. Ele elimina colunas duplicadas no resultado final.
+
+### ✅ Características:
+- A junção é feita implicitamente com base nos nomes das colunas comuns.
+- As colunas duplicadas (presentes em ambas as tabelas) aparecem apenas uma vez no resultado.
+- Requer que as colunas em comum tenham o mesmo nome e tipos compatíveis.
+
+### 🧾 Exemplo:
+
 ```sql
-SELECT * FROM funcionario NATURAL JOIN departamento;
+-- Tabela: alunos
+-- id | nome     | curso_id
+-- 1  | Ana      | 101
+-- 2  | Bruno    | 102
+
+-- Tabela: cursos
+-- curso_id | nome_curso
+-- 101      | Engenharia
+-- 102      | Medicina
+
+SELECT * 
+FROM alunos
+NATURAL JOIN cursos;
+
