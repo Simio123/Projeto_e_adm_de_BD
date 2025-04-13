@@ -51,3 +51,28 @@ SELECT *
 FROM alunos
 NATURAL JOIN cursos;
 
+## 🔸 CROSS JOIN
+
+O `CROSS JOIN` realiza o **produto cartesiano** entre duas tabelas, ou seja, combina **todas as linhas da primeira tabela com todas as da segunda**.
+
+### ✅ Características:
+- Não utiliza cláusula `ON`.
+- O número de linhas resultantes é o produto do número de linhas das duas tabelas (`n * m`).
+- Pode ser útil para gerar combinações de possibilidades (ex: cores × tamanhos).
+
+### 🧾 Exemplo:
+
+```sql
+-- Tabela: cores
+-- nome_cor
+-- Azul
+-- Vermelho
+
+-- Tabela: tamanhos
+-- tamanho
+-- P
+-- M
+
+SELECT * 
+FROM cores
+CROSS JOIN tamanhos;
