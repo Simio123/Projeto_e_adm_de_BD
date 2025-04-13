@@ -47,6 +47,7 @@ O `NATURAL JOIN` realiza uma junção automática entre duas tabelas, utilizando
 SELECT * 
 FROM alunos
 NATURAL JOIN cursos;
+,,,
 
 ## 🔸 CROSS JOIN
 
