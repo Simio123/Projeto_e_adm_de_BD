@@ -76,7 +76,7 @@ FROM cores
 CROSS JOIN tamanhos;
 ```
 
-# Funções de Janela (Window Functions) no PostgreSQL
+# 🪟 Funções de Janela (Window Functions) no PostgreSQL
 
 As **Window Functions** (Funções de Janela) são um recurso poderoso do PostgreSQL (e de outros bancos SQL) que permite realizar cálculos agregados ao longo de um conjunto de linhas relacionadas à linha atual, sem colapsar os resultados em uma única linha (como ocorre com `GROUP BY`).
 
