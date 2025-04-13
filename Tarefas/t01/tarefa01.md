@@ -18,9 +18,9 @@
 - [Q16 – Responsáveis de projeto que são gerentes ou ganham mais que o gerente do departamento](tarefa01-q16.sql)
 - [Q19 – Funcionários com maior salário por departamento (mesmo sem estar associado a um)](tarefa01-q19.sql)
 
-## 📘 Conceitos
+# 📘 Conceitos
 
-# 📘 NATURAL JOIN e CROSS JOIN em SQL
+## 📘 NATURAL JOIN e CROSS JOIN em SQL
 
 ## 🔹 NATURAL JOIN
 
