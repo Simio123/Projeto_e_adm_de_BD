@@ -20,9 +20,6 @@
 
 ## 📘 Conceitos
 
-### 🔗 NATURAL JOIN
-`NATURAL JOIN` une automaticamente tabelas com base em colunas de **mesmo nome e tipo**. É simples de usar, mas deve ser aplicado com cuidado para evitar joins inesperados.
-
 # 📘 NATURAL JOIN e CROSS JOIN em SQL
 
 ## 🔹 NATURAL JOIN
