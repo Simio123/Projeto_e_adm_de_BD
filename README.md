@@ -7,4 +7,4 @@
 
 ## Tarefas Disponíveis
 
-- [📄 Tarefa 01 – Documentação da Tarefa 01](tarefas/t01/)
+- [📄 Tarefa 01 – Documentação da Tarefa 01](Tarefas/t01/)
