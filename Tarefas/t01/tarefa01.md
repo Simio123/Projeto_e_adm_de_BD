@@ -74,3 +74,24 @@ O `CROSS JOIN` realiza o **produto cartesiano** entre duas tabelas, ou seja, com
 SELECT * 
 FROM cores
 CROSS JOIN tamanhos;
+```
+
+# Funções de Janela (Window Functions) no PostgreSQL
+
+As **Window Functions** (Funções de Janela) são um recurso poderoso do PostgreSQL (e de outros bancos SQL) que permite realizar cálculos agregados ao longo de um conjunto de linhas relacionadas à linha atual, sem colapsar os resultados em uma única linha (como ocorre com `GROUP BY`).
+
+## 📌 Características
+
+- Preservam todas as linhas da tabela.
+- Executam cálculos com base em um "conjunto de janelas" definido.
+- São muito úteis para rankings, médias móveis, totais acumulados e comparações entre linhas.
+
+## 🧠 Sintaxe Básica
+
+```sql
+<função_de_janela>([expressões]) OVER (
+  [PARTITION BY colunas]
+  [ORDER BY colunas]
+  [frame_clause]
+)
+```
