@@ -2,7 +2,7 @@
 
 ## Links para Scripts e Programas
 
-- [Script de Criação do Banco de Dados](criar_banco.sql)
+- [Script de Criação do Banco de Dados](scripts/criar_banco.sql)
 - [Script Docker Compose](docker-compose.yml)
 - [Programa ODBC](odbc_program.py)
 - [Programa ORM](orm_program.py)
