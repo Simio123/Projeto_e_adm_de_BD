@@ -8,3 +8,4 @@
 ## Tarefas Disponíveis
 
 - [📄 Tarefa 01 – Documentação da Tarefa 01](Tarefas/t01/)
+- [📄 Tarefa 02 – Documentação da Tarefa 02](Tarefas/t02/)
